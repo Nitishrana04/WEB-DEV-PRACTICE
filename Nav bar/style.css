@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border-bottom: 2px solid black;
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+.navlinks{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+
+}
+
+.log img{
+    height: 2.4rem;
+}
+
+.navlinks a:last-child{
+    border: 2px solid black;
+    border-radius: 4rem;
+    background-color: black;
+    color: white;
+    padding: 0.6rem 1.4rem;
+}
+
+.navlinks a:last-child:hover{
+    background-color: #ffc017;
+    color: black;
+}
